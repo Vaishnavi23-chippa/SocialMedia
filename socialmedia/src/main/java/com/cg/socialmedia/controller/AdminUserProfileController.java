@@ -58,7 +58,7 @@ public class AdminUserProfileController {
 		return adminUserProfileService.searchByUserId(uid);	
 	}
 	
-	
+	//deletes
 	@ApiOperation(value ="Deletes  user by user Id")
 	
 	@ApiResponses(value= {
