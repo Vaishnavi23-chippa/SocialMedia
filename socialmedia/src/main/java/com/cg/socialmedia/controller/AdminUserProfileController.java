@@ -32,7 +32,7 @@ import io.swagger.annotations.ApiResponses;
 public class AdminUserProfileController {
 	@Autowired
 	private AdminUserProfileService adminUserProfileService;
-	
+	//autowiring
 	@Autowired
 	private UserprofileRepo userprofileRepo;
 	
